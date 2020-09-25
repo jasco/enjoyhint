@@ -255,14 +255,14 @@
             });
           }
 
+          var w = $element.length ? $element[0].getBoundingClientRect().width : 0;
+          var h = $element.length ? $element[0].getBoundingClientRect().height : 0;
           var max_habarites = Math.max(
-            $element.outerWidth(),
-            $element.outerHeight()
+            w,
+            h
           );
           var radius = step_data.radius || Math.round(max_habarites / 2) + 5;
           var offset = $element.offset();
-          var w = $element.outerWidth();
-          var h = $element.outerHeight();
           var shape_margin =
             step_data.margin !== undefined ? step_data.margin : 10;
   
