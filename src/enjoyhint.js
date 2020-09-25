@@ -129,7 +129,7 @@
         if (!step_data.selector) {
           for (var prop in step_data) {
             if (step_data.hasOwnProperty(prop) && prop.split(" ")[1]) {
-              step_data.selector = prop.split(" ")[1];
+              step_data.selector = prop.split(" ").slice(1).join(' ');
               step_data.event = prop.split(" ")[0];
   
               if (
