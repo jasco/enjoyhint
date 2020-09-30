@@ -309,18 +309,18 @@
     var nextStep = function() {
       current_step++;
       stepAction();
-      if (data && data[current_step] && data[current_step].onNext &&
-          typeof data[current_step].onNext === "function") {
-          data[current_step].onNext();
+      if (data && data[current_step] && data[current_step].fromNextClick &&
+          typeof data[current_step].fromNextClick === "function") {
+          data[current_step].fromNextClick();
       }
     };
 
     var prevStep = function() {
       current_step--;
       stepAction();
-      if (data && data[current_step] && data[current_step].onPrev &&
-          typeof data[current_step].onPrev === "function") {
-          data[current_step].onPrev();
+      if (data && data[current_step] && data[current_step].fromPrevClick &&
+          typeof data[current_step].fromPrevClick === "function") {
+          data[current_step].fromPrevClick();
       }
     };
 
