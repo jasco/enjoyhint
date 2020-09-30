@@ -392,7 +392,7 @@
     font-size: 16px;
   }
 
-  .enjoyhint_next_btn {
+  .enjoyhint_next_btn, .enjoyhint_prev_btn {
     font-size : 200%;
     color : #FFF;
     line-height : 1.2em;
@@ -401,17 +401,11 @@
     height: 35px;
     -webkit-border-radius : 50%;
     border-radius : 50%;
-  }
-
-  .enjoyhint_prev_btn {
-    font-size : 200%;
-    color : #FFF;
-    line-height : 1.2em;
-    min-width: 0px;
-    width: 35px;
-    height: 35px;
-    -webkit-border-radius : 50%;
-    border-radius : 50%;
+    text-shadow:
+      -1px -1px 0 #555555,
+      1px -1px 0 #555555,
+      -1px 1px 0 #555555,
+      1px 1px 0 #555555;
   }
 
   .enjoyhint_skip_btn {
