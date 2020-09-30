@@ -393,9 +393,9 @@
   }
 
   .enjoyhint_next_btn {
-    font-size : 200%;
+    font-size : 60px;
     color : #FFF;
-    line-height : 1.2em;
+    line-height : 0.5;
     min-width: 0px;
     width: 35px;
     height: 35px;
@@ -404,9 +404,9 @@
   }
 
   .enjoyhint_prev_btn {
-    font-size : 200%;
+    font-size : 60px;
     color : #FFF;
-    line-height : 1.2em;
+    line-height : 0.5;
     min-width: 0px;
     width: 35px;
     height: 35px;
