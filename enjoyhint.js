@@ -1017,7 +1017,7 @@
         that.setMarkerColor = function(color){
 
             function isValidColor(value) {
-                const temp = new Option().style;
+                var temp = new Option().style;
                 temp.color = value;
                 return temp.color !== '';
             }
