@@ -1,6 +1,6 @@
 {
   "name": "enjoyhint",
-  "version": "4.0.1",
+  "version": "4.0.2-3c",
   "description": "Web-tool that provides the simplest way to create interactive tutorials and hints.",
   "main": "enjoyhint.js",
   "scripts": {
